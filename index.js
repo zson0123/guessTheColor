@@ -23,6 +23,7 @@ function modeSetup() {
         modeBtns[i].addEventListener("click", function() {
             modeBtns[0].classList.remove("selected");
             modeBtns[1].classList.remove("selected");
+            modeBtns[2].classList.remove("selected");
             this.classList.add("selected");
 
             // Change this if we want to add difficulties
